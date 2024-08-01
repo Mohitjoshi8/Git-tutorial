@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #id{
+        border: 5px;
+        border-width: 2px;
+        border-color: red;
+        background-color: red;
+        height: 100%;
+        width: 100%;
+        color: black;
+
+    }
+    h1{
+        font-size: 20px;
+
+    }
+
+</style>
+<body>
+    <div onclick="kk()" id="id"><h1>welcome to  the webpage</h1></div>
+</body>
+<script>
+    function kk(){
+        var target=document.getElementById("id")
+        target.style.backgroundColor="black";
+        target.style.color="white";
+    }
+</script>
+</html>

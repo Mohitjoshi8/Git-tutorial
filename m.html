@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #id{
+        border: 4px;
+        border-color: red;
+        background-color: red;
+        height: 10px;
+        width: 10px;
+        color: black;
+
+    
+    }
+</style>
+
+<body>
+    <div id="id"></div>
+ 
+</body>
+<script> 
+
+       var a=0
+    setInterval(amin,1000);
+    function amin(){
+        a=a+10
+        var target=document.getElementById("id")
+        target.style.width=a+"px"
+        }
+
+</script>
+</html>
